@@ -15,23 +15,7 @@ class Program {
     #endregion
 
     static void Main(string[] args) {
-        Dictionary<string, int> card_mapper = new Dictionary<string, int>();
-        List<string> talia = new List<string>();
-        string[] specials = { "walet", "krolowa", "krol", "as" };
-        int[] specials_vals = { 2, 3, 4, 11 };
-
-        // make deck
-        for (int i = 2; i < 15; i++) {
-            if (i <= 10) {
-                for (int j = 0; j < 4; j++) { talia.Add(Convert.ToString(i)); }
-                card_mapper.Add(Convert.ToString(i), i);
-            }
-            else {
-                for (int j = 0; j < 4; j++) { talia.Add(specials[j]); }
-                card_mapper.Add(specials[i % 11], specials_vals[i % 11]);
-            }
-        }
-
+        
         Console.WriteLine("-- Witaj w grze Oczko! -- \n Czy chcesz zagrać (1) czy wyjść (2) ?");
         string wanna_play = Console.ReadLine();
 
@@ -43,6 +27,25 @@ class Program {
         bool wanna_play_again = wanna_play == "1";
 
         while (wanna_play_again) {
+            // reset playable deck
+            Dictionary<string, int> card_mapper = new Dictionary<string, int>();
+            List<string> talia = new List<string>();
+            string[] specials = { "walet", "krolowa", "krol", "as" };
+            int[] specials_vals = { 2, 3, 4, 11 };
+
+            // make deck
+            for (int i = 2; i < 15; i++) {
+                if (i <= 10) {
+                    for (int j = 0; j < 4; j++) { talia.Add(Convert.ToString(i)); }
+                    card_mapper.Add(Convert.ToString(i), i);
+                }
+                else {
+                    for (int j = 0; j < 4; j++) { talia.Add(specials[j]); }
+                    card_mapper.Add(specials[i % 11], specials_vals[i % 11]);
+                }
+            }
+
+            //start game
             shuffle(talia);
             List<string> player_hand = new List<string>();
             int player_sum = 0;
