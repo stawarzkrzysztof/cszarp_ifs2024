@@ -1,0 +1,15 @@
+/Users/stawager/Projects/cszarp4/bin/Debug/net7.0/cszarp4
+/Users/stawager/Projects/cszarp4/bin/Debug/net7.0/cszarp4.deps.json
+/Users/stawager/Projects/cszarp4/bin/Debug/net7.0/cszarp4.runtimeconfig.json
+/Users/stawager/Projects/cszarp4/bin/Debug/net7.0/cszarp4.dll
+/Users/stawager/Projects/cszarp4/bin/Debug/net7.0/cszarp4.pdb
+/Users/stawager/Projects/cszarp4/obj/Debug/net7.0/cszarp4.csproj.AssemblyReference.cache
+/Users/stawager/Projects/cszarp4/obj/Debug/net7.0/cszarp4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stawager/Projects/cszarp4/obj/Debug/net7.0/cszarp4.AssemblyInfoInputs.cache
+/Users/stawager/Projects/cszarp4/obj/Debug/net7.0/cszarp4.AssemblyInfo.cs
+/Users/stawager/Projects/cszarp4/obj/Debug/net7.0/cszarp4.csproj.CoreCompileInputs.cache
+/Users/stawager/Projects/cszarp4/obj/Debug/net7.0/cszarp4.dll
+/Users/stawager/Projects/cszarp4/obj/Debug/net7.0/refint/cszarp4.dll
+/Users/stawager/Projects/cszarp4/obj/Debug/net7.0/cszarp4.pdb
+/Users/stawager/Projects/cszarp4/obj/Debug/net7.0/cszarp4.genruntimeconfig.cache
+/Users/stawager/Projects/cszarp4/obj/Debug/net7.0/ref/cszarp4.dll
