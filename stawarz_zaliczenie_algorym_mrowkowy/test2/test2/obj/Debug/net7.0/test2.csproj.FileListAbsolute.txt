@@ -1,0 +1,15 @@
+/Users/stawager/Repos/cszarp_ifs2024/stawarz_zaliczenie_algorym_mrowkowy/test2/test2/bin/Debug/net7.0/test2
+/Users/stawager/Repos/cszarp_ifs2024/stawarz_zaliczenie_algorym_mrowkowy/test2/test2/bin/Debug/net7.0/test2.deps.json
+/Users/stawager/Repos/cszarp_ifs2024/stawarz_zaliczenie_algorym_mrowkowy/test2/test2/bin/Debug/net7.0/test2.runtimeconfig.json
+/Users/stawager/Repos/cszarp_ifs2024/stawarz_zaliczenie_algorym_mrowkowy/test2/test2/bin/Debug/net7.0/test2.dll
+/Users/stawager/Repos/cszarp_ifs2024/stawarz_zaliczenie_algorym_mrowkowy/test2/test2/bin/Debug/net7.0/test2.pdb
+/Users/stawager/Repos/cszarp_ifs2024/stawarz_zaliczenie_algorym_mrowkowy/test2/test2/obj/Debug/net7.0/test2.csproj.AssemblyReference.cache
+/Users/stawager/Repos/cszarp_ifs2024/stawarz_zaliczenie_algorym_mrowkowy/test2/test2/obj/Debug/net7.0/test2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stawager/Repos/cszarp_ifs2024/stawarz_zaliczenie_algorym_mrowkowy/test2/test2/obj/Debug/net7.0/test2.AssemblyInfoInputs.cache
+/Users/stawager/Repos/cszarp_ifs2024/stawarz_zaliczenie_algorym_mrowkowy/test2/test2/obj/Debug/net7.0/test2.AssemblyInfo.cs
+/Users/stawager/Repos/cszarp_ifs2024/stawarz_zaliczenie_algorym_mrowkowy/test2/test2/obj/Debug/net7.0/test2.csproj.CoreCompileInputs.cache
+/Users/stawager/Repos/cszarp_ifs2024/stawarz_zaliczenie_algorym_mrowkowy/test2/test2/obj/Debug/net7.0/test2.dll
+/Users/stawager/Repos/cszarp_ifs2024/stawarz_zaliczenie_algorym_mrowkowy/test2/test2/obj/Debug/net7.0/refint/test2.dll
+/Users/stawager/Repos/cszarp_ifs2024/stawarz_zaliczenie_algorym_mrowkowy/test2/test2/obj/Debug/net7.0/test2.pdb
+/Users/stawager/Repos/cszarp_ifs2024/stawarz_zaliczenie_algorym_mrowkowy/test2/test2/obj/Debug/net7.0/test2.genruntimeconfig.cache
+/Users/stawager/Repos/cszarp_ifs2024/stawarz_zaliczenie_algorym_mrowkowy/test2/test2/obj/Debug/net7.0/ref/test2.dll
