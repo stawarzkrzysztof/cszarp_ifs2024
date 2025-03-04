@@ -21,7 +21,6 @@ namespace test5 {
             // create tables
             using var command = connection.CreateCommand();
             
-            // create RunInfo table
             command.CommandText = @"
                 CREATE TABLE IF NOT EXISTS RunInfo (
                     RunID INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -35,8 +34,7 @@ namespace test5 {
                     Q REAL NOT NULL
                 )";
             command.ExecuteNonQuery();
-
-            // Create NodeDistribution table
+            
             command.CommandText = @"
                 CREATE TABLE IF NOT EXISTS NodeDistribution (
                     RunID INTEGER NOT NULL,
@@ -47,8 +45,7 @@ namespace test5 {
                     FOREIGN KEY (RunID) REFERENCES RunInfo(RunID)
                 )";
             command.ExecuteNonQuery();
-
-            // Create BestPaths table
+            
             command.CommandText = @"
                 CREATE TABLE IF NOT EXISTS BestPaths (
                     PathID INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -139,7 +136,7 @@ namespace test5 {
             connection.Open();
             using var command = connection.CreateCommand();
 
-            // Convert path to sequence of node indices
+            // convert path to sequence of node indices
             var nodeIndices = new List<int>();
             foreach (var point in bestTour) {
                 nodeIndices.Add(nodes.IndexOf(point));
